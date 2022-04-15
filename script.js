@@ -65,11 +65,12 @@ $(document).ready(function() {
 
 
 
-
+let scrollElem = document.getElementById('fiction_slider_page')
 let scrollToThis = document.getElementById("main_first_button_href");
 scrollToThis.onclick = function () {
-    window.scrollTo(0, 1750)
+    window.scrollTo(0, 1000)
 }
+
 
 
 
