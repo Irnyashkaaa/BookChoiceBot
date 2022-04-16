@@ -74,10 +74,10 @@ body {
 .main_page {
 }
 .slider_page{
-    margin-top:-5px;
+    margin-top: 0px;
     background-color: black;
     padding: 0px 0px 0px 0px;
-    height: fit-content;
+    height: 1000px;
 }
 
 .fiction_slider_page{
@@ -98,11 +98,12 @@ body {
     justify-content: end;
 }
 .header_button {
-    background-color: rgba(48, 45, 45, 1);
-    padding: 18px 25px;
-    border-radius: 8px;
+    padding: 18px 19px;
     cursor: pointer;
-    margin-right: 20px;
+    margin-right: 5px;
+    font-size: 24px;
+    border: none;
+    font-weight: 700;
 }
 @media (max-width: 358px) {
     .header_button {
@@ -209,6 +210,7 @@ body {
         padding: 15px 20px;
         min-width: 160px;
         margin: 20px 0px 0px 0px;
+
     }
     
 }
@@ -507,6 +509,9 @@ body {
 .button_go_to_bot:hover {
     background-color: aliceblue;
     color: black;
+    box-shadow: 0 0 10px 4px rgba(0,0,0,0.6);
+    transition: .3s linear;
+
 }
 
 @media (max-width: 1200px) {
